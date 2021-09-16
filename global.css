@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px; /* unidades REM */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root{
+
+        /* Paleta de colores */
+        --color1: #345fb4;
+        --color2: #6789CA;
+        --color3: #313131;
+        --color4: #777777;
+        --color5: #A5A5A5;
+        --color6: #fff;
+
+
+        /* tamaños de fuente */
+    
+        --size1: 3.4rem;
+        --size2: 2rem;
+        --size3: 1.2rem;
+        --size4: 1.6rem;
+        --size5: 7rem;
+
+}
+
+/* definición de secciones */
+
+section{
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 37.5rem;
+    height: auto;
+    margin: auto;
+}
+
