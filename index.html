@@ -7,6 +7,7 @@
 <!-- sections of styles -->
 <link rel="stylesheet" href="css/global.css">
 <link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/tableta.css" media="(min-width: 768px)">
 
 <!-- sections of fonts -->
 
@@ -18,35 +19,31 @@
 
 </head>
 <body>
-    <section>
-        <div>
-            <img class="barra" src="img/Bars_Status_Bar_iPhone_Light.png" alt="">
-            <img class="pic" src="img/vector.png" alt="">
+    <div class="login">
+        <section class="inicio">
+
+            <img src="img/vector.svg" alt="">
 
             <p class="bienvenida">Hi Student</p>
-            <p class="sign">Sign in to continue</p>
+            <p class="sign in">Sign in to continue</p>
 
-            <div class="datos">
-                <p class="email">Mobile Numbrer/Email</p>
-                <input type="text" class="identifier" placeholder="Syalfreelance@gmail.com">
-                <img class="line" src="img/border-2.png" alt="">
+            <form class="formulario">
+                <label for="usuario">
+                    Mobile Number/Email
+                    <input type="text" class="identifier" placeholder="Syalfreelance@gmail.com">
+                </label>
 
-                <p class="contrasena">Password</p>
-                <input type="password" class="identifier" placeholder="●●●●●●●●">
-                <img class="line" src="img/border-2.png" alt="">
+                <label for="contrasenna">
+                    Password
+                    <input type="password" class="identifier" placeholder="●●●●●●●●">
+                </label>
 
-                <div class="button">
-                    <a href="">
-                        <img src="img/button.png" alt="">
-                    </a>
-                </div>
+                <button>SING IN</button>
 
-                <a class="olvido" href="">Forgot Password?</a> 
-                
-                <img class="home" src="img/Bars_Home_Indicator_iPhone_On_Light_-_Portrait.png" alt="">
-                
-        </div>
+                <a href="#">Forgot Password?</a>
+            </form>
 
-    </section> 
+        </section>
+    </div>
 </body>
 </html>
