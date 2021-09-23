@@ -1,0 +1,23 @@
+section{
+    max-width: 100rem;
+}
+
+.inicio img{
+    align-self: flex-start;
+    width: 48.5rem;
+    margin-top: 25rem;
+}
+
+.inicio p{
+    align-self: flex-end;
+    margin-right: 24rem;
+}
+
+.bienvenida{
+    margin-top: -30rem;
+}
+
+.inicio form{
+    align-self: flex-end;
+    width: 40rem;
+}

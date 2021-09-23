@@ -1,5 +1,5 @@
 .login{
-    height: 110vh;
+    height: 100vh;
 }
 
 .formulario{
@@ -9,4 +9,12 @@
 
 .formulario label{
     margin-top: 4rem;
+}
+
+.inicio img{
+    margin-top: 18rem;
+}
+
+button{
+    max-width: 33.5rem;
 }
